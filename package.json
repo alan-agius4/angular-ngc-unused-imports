@@ -1,0 +1,23 @@
+{
+	"name": "angular-error",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Angular error",
+	"scripts": {
+		"start": "npm i",
+		"build-ngc": "ngc",
+		"build-tsc": "tsc --outDir ./tsc-out"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@angular/common": "^5.1.1",
+		"@angular/compiler": "^5.1.1",
+		"@angular/compiler-cli": "^5.1.1",
+		"@angular/core": "^5.1.1",
+		"@angular/forms": "^5.1.1",
+		"rxjs": "^5.5.6",
+		"tslib": "^1.8.1",
+		"typescript": "~2.5.3",
+		"zone.js": "^0.8.18"
+	}
+}

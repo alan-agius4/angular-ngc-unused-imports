@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "es2015",
+		"target": "es2015",
+		"moduleResolution": "node",
+		"lib": [
+			"dom",
+			"es2017"
+		],
+		"experimentalDecorators": true,
+		"declaration": true,
+		"inlineSources": true,
+		"importHelpers": true,
+		"sourceMap": true,
+		"outDir": "./ngc-out"
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"files": [
+		"src/public-api.ts"
+	],
+	"angularCompilerOptions": {
+		"skipTemplateCodegen": true,
+		"strictMetadataEmit": true,
+		"flatModuleOutFile": "index.js",
+		"genDir": "dist"
+	}
+}
